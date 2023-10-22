@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(222, 237, 243);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-body{
+    margin: 0px 5%;
+}
+
+#header{
+    background-color: white;   
+    padding-top: 2px;
+    position: fixed;
+    width: 100%; 
+    top: 0%;
+    z-index: 1;
+}
+
+.container{
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.col-1{
+    width: 50%;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 140px;
+    margin-left: 2%;
+    margin-top: 17px;
+}
+
+.search{
+    width: 75%;
+    margin-left: 5%;
+}
+.search input[type="text"]{
+    width: 100%;
+    background-color: rgb(227, 242, 248);
+    border-color: transparent;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding-left: 7%;
+    font-size: 1em;
+    background-image: url("https://img.icons8.com/?size=48&id=84039&format=png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 1%;
+    background-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.col-2>ul>li{
+    display: inline-block;
+    width: 13%;
+    padding: 20px 3px;
+    font-weight: 350;
+    font: 1em sans-serif;
+    position: relative;
+}
+
+.col-2>ul>li>a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+#section-1{
+    background-color: white;
+    margin: auto;
+    margin-top: 6%;
+    padding: 1%;
+}
+
+#section-1 .container{
+    margin: 0px 4%;
+    width: 100%;
+}
+
+#section-1 .product{
+    display: inline-block;
+    width: 8%;
+    text-align: center;
+    padding: 3px;
+    margin: 2px;
+}
+
+#section-1 .product img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+#section-1 h4{
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+#banner{
+    margin: 15px 0px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#maha-sale .container{
+    margin: 0px;
+}
+
+#maha-sale .row .prod-img{
+    display: inline-block;
+    width: 33%;
+    margin-left: 1px;
+    margin: 2px 0px;
+}
+
+#maha-sale .prod-img img{
+    height: 200px;
+    width: 100%;
+}
+
+#section-2{
+    background-color: white;
+    padding: 1% 1%;
+    margin: 1% 0;
+}
+
+#section-2 h2{
+    margin-bottom: 10px;
+    margin-left: 0.5em;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+#section-2 h3{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#section-2 h4{
+    font-weight: 200;
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: rgb(54, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section-2 .prod{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.269);
+    display: inline-block;
+    text-align: center;
+    width: 22%;
+    border-radius: 2%;
+    padding: 7px;
+    position: relative;
+    margin: 0px 7px;
+}
+
+#section-2 .prod img{
+    height: 115px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+#footer{
+    background-color: rgb(33, 33, 33);
+}
+
+#footer .container{
+    width: 100%;
+    padding: 2%;
+    
+}
+
+#footer .container .heading-row{
+    grid-template-columns: repeat(6,3fr);
+    display: grid;
+    width: 90%;
+    column-gap: 8px;
+}
+
+#footer .container .heading-row .col{
+    width: 175px;
+}
+
+#footer .container .heading{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+#footer .container .sub-heading a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    display: block;
+    line-height: 18px;
+}
+
+#footer .container p{
+    font-weight: 500;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+}
